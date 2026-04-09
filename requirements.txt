@@ -1,0 +1,40 @@
+# 3D File Format Converter Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core mesh processing
+trimesh[easy]==4.0.5
+numpy>=1.24.0
+
+# CAD formats (STEP, IGES, BREP, 3DM)
+cadquery>=2.3.0
+OCP>=7.7.0
+rhino3dm==8.0.0
+
+# BIM/IFC
+ifcopenshell>=0.7.0
+
+# 3D formats
+pygltflib>=1.15.0
+pycollada>=0.7.0
+
+# Additional mesh formats
+meshio>=5.3.0
+
+# 3MF
+lib3mf-python>=2.2.0
+
+# AMF
+lxml>=4.9.0
+
+# FBX (requires manual installation of FBX SDK)
+# fbx-sdk>=2020.3.4
+
+# Utilities
+Pillow>=9.0.0
+scipy>=1.10.0
+networkx>=3.0
+
+# CLI
+click>=8.0.0
+tqdm>=4.65.0
+colorama>=0.4.6
